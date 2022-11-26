@@ -22,6 +22,9 @@ h2 {
     padding: 10px;
     background-color: rgb(var(--maincolor));
 }
+.cards1 img, .cards2 img {
+    width: 40px;
+}
 
 /************ HEADER *************/
 header {
@@ -102,26 +105,23 @@ header h2 {
 #prestations {
     margin-bottom: 0;
 }
-#prestations ul:nth-of-type(1) {
+#prestations ul.cards1 {
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
 }
-#prestations ul:nth-of-type(1) li {
+#prestations ul.cards1 li {
     width: 100%;
     text-align: center;
     border-top: 1px #e9e9e9 solid;
-    padding: 40px 0 20px 0;
+    padding: 40px 10px 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
-#prestations ul:nth-of-type(1) li:not(li:last-child) {
+#prestations ul.cards1 li:not(li:last-child) {
     border-right: 1px #e9e9e9 solid;
-}
-#prestations ul:nth-of-type(1) li img {
-    width: 40px;
 }
 
 #prestations article {
@@ -149,4 +149,23 @@ header h2 {
 }
 #prestations div h2 {
     transform: translate(-100px);
+}
+
+#prestations ul.cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+#prestations ul.cards2 li {
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 40px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#prestations ul.cards2 li:nth-of-type(odd) {
+    background-color: #e9e9e9;
 }
