@@ -75,8 +75,9 @@ header h2 {
     background-image:linear-gradient(rgba(var(--maincolor),0.5), rgba(var(--maincolor),0.5)), url(../img/fitnesswoman.jpg);
 }
 #programmes article {
-    width: 400px;
-    height: 220px;
+    width: 50%;
+    min-width: 400px;
+    aspect-ratio: 16/9;
     text-align: center;
     background-position: center;
     background-size: cover;
@@ -89,4 +90,9 @@ header h2 {
 }
 #programmes h2 {
     text-transform: uppercase;
+}
+
+/***********OBJECTIFS***********/
+#objectifs {
+
 }
