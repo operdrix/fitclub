@@ -105,6 +105,7 @@ header h2 {
 #prestations ul:nth-of-type(1) {
     display: flex;
     justify-content: center;
+    margin-bottom: 0px;
 }
 #prestations ul:nth-of-type(1) li {
     width: 100%;
@@ -121,4 +122,31 @@ header h2 {
 }
 #prestations ul:nth-of-type(1) li img {
     width: 40px;
+}
+
+#prestations article {
+    background-color: black;
+    display: flex;
+    color: white;
+}
+#prestations div:first-of-type {
+    width: 55%;
+    background-image: 
+        linear-gradient(
+            90deg, 
+            rgba(var(--maincolor),0.4), 
+            rgba(var(--maincolor),0.2)
+        ),
+        url(../img/crossfit.jpg);
+    background-size: 100% cover;
+}
+#prestations div:nth-child(2) {
+    width: 45%;
+    padding: 40px 25px 60px 30px;
+}
+#prestations div p {
+    width: 75%;
+}
+#prestations div h2 {
+    transform: translate(-100px);
 }
