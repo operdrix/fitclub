@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	outline: none;
 	text-decoration: none;
-	transition: all .2s ease 0s;
+	/*transition: all .2s ease 0s;*/
     /* Visualisation des éléments */
     /*border: 1px dotted rgba(0,0,0,0.3);*/
 }
@@ -28,4 +28,10 @@ a, a:hover, a:visited, a:active {
 ul {
     padding: 0;
     list-style: none;
+}
+address {
+    text-decoration: none;
+    text-transform: none;
+    font-size: inherit;
+    font-style: normal;
 }
