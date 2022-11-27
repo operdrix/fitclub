@@ -29,6 +29,12 @@ h2 {
 .cards1 img, .cards2 img {
     width: 40px;
 }
+a:hover {
+    color: rgb(var(--maincolor));
+}
+.btn:hover {
+    background-color: white;
+}
 
 /************ HEADER *************/
 header {
@@ -37,7 +43,7 @@ header {
     background-size: cover;
     background-position: top;
     color: var(--textcolor);
-    padding: 10px 20px 50px 20px;
+    padding: 10px 20px 80px 20px;
 }
 header nav {
     width: 100%;
@@ -46,7 +52,7 @@ header nav {
     align-items: center;
 }
 header nav img {
-    height: 35px;
+    height: 50px;
 }
 header nav ul {
     display: flex;
@@ -55,13 +61,13 @@ header nav ul {
 }
 header div {
     text-align: center;
-    margin: 100px 0;
+    margin: 130px 0;
 }
 header h1 {
     font-style: italic;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 8rem;
     margin-bottom: 0;
 }
 header h2 {
@@ -73,7 +79,7 @@ header h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    transform: translate(0, -70px);
+    transform: translate(0, -100px);
     margin-bottom: 30px;
 }
 #programmes article:nth-child(1) {
