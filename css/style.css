@@ -33,10 +33,11 @@ h2 {
 /************ HEADER *************/
 header {
     background: linear-gradient(90deg, rgba(var(--maincolor),0.4) 0%, rgba(0,0,0,0) 100%), url(../img/fitness.jpg);
-    color: var(--textcolor);
-    padding: 10px 20px 50px 20px;
+    background-attachment: fixed;
     background-size: cover;
     background-position: top;
+    color: var(--textcolor);
+    padding: 10px 20px 50px 20px;
 }
 header nav {
     width: 100%;
